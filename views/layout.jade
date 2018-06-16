@@ -4,26 +4,15 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='/stylesheets/chunkfive-fontface.css')
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+    script(src='../public/javascripts/navbar.js')
+
   body
     header
-      nav
-        ul
-          li
-            a(href="/") Home
-          li
-            a(href="/about") About
-          li
-            a(href="/contact") Contact
-    section#wrapper
-        block content
-        footer
-          section.css-table
-            section.four-column
-              section.cell
-                p Mauris porttitor <br />felis eu leo aliquet<br /> ac rutrum odio aliquet
-              section.cell
-                p Mauris porttitor <br />felis eu leo aliquet<br /> ac rutrum odio aliquet
-              section.cell
-                p Mauris porttitor <br />felis eu leo aliquet<br /> ac rutrum odio aliquet
-              section.cell
-                p Mauris porttitor <br />felis eu leo aliquet<br /> ac rutrum odio aliquet
+    .filler.one
+    nav#navbar
+      ul
+        li One
+        li Two
+        li Three
+    .filler.two
