@@ -1,11 +1,10 @@
-.navbar-fixed {
-  position: fixed;
-  top: -3em;
-}
 nav {
+  position: fixed;
   width: 100%;
-  color: #bbb;
-  background: #2e2e2e;
+  top: 0em;
+  left: 0em;
+  color: #f8f8ff;
+  background: #1e90ff;
   font-weight: bold;
   letter-spacing: 0.025em;
 }
@@ -19,10 +18,10 @@ nav ul li {
   line-height: 3em;
 }
 nav ul :hover {
-  background: #00939c;
+  background: #00bfff;
 }
 body {
-  background: #0b6ad4;
+  background: #f8f8ff;
 }
 .filler {
   width: 1px;
